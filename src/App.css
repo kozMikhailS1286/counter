@@ -1,5 +1,38 @@
+body {
+  background-color: #282c34;
+}
+
+.counter {
+  background-color: mediumturquoise;
+  width: 130px;
+  height: 60px;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.five {
+  color: red;
+}
+
+.on {
+  background-color: aqua;
+}
+
+.off {
+  background-color: darkgray;
+}
+
+.error {
+  border: 2px solid red;
+}
+
 .App {
   text-align: center;
+  border: 1px solid mediumturquoise;
+  width: 140px;
+  height: 140px;
+  margin: 10px;
+  border-radius: 3px;
 }
 
 .App-logo {
