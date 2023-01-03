@@ -69,3 +69,13 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.button {
+  border: 1px solid #000;
+}
+
+.button:disabled {
+  opacity: 0.4;
+  border: 1px solid rgba(0,0,0,0.4);
+  pointer-events: none;
+}
