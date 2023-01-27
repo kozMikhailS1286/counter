@@ -26,6 +26,7 @@ function App() {
 
   return (
     <div className="App">
+        <h1> Счетчик </h1>
       <Counter 
         initValue={value}
         />
